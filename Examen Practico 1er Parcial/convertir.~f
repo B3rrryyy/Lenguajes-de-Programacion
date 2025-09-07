@@ -1,0 +1,15 @@
+        program convertir
+                implicit none
+                real :: celsius, fahrenheit
+
+                print *, "Ingrese la temperatura en grados Celsius:"
+                read *, celsius
+
+                fahrenheit = (celsius * 1.8) + 32.0
+
+                print *, celsius, " C equivalen a ", fahrenheit, " F"
+                
+                print */ "Presione Enter para salir"
+                read(*,*)
+        end program convertir
+
