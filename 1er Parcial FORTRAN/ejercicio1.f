@@ -6,7 +6,7 @@
        print *, 'Precio Inicial del Kilo de UVA'
        read *, precioInicial
        
-       print *, '¨Cuantos kilos son?'
+       print *, 'Â¨Cuantos kilos son?'
        read *, kilos
        
        print *, 'Tipo de Uva, considera que A es 1 y B es 2'
